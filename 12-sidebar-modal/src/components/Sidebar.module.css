@@ -1,0 +1,73 @@
+.slide-in {
+  animation: slideIn 1s ease-out 0s forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.slide-out {
+  animation: slideOut 1s ease-out 0s forwards;
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 16rem;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.sidebar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 2rem;
+  padding: 0 1.4rem;
+}
+
+.sidebar ul li {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.pos-btn {
+  width: 100%;
+  padding: 0.4rem 0.4rem 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.btn--close {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(238, 92, 92);
+  cursor: pointer;
+}
+
+.btn--close:hover {
+  color: rgb(247, 127, 127);
+}

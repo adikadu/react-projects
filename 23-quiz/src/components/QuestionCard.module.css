@@ -1,0 +1,82 @@
+.question-card {
+  width: 80vw;
+  margin: 4rem auto;
+  padding: 1rem 2rem;
+  border-radius: 11px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.question-card p {
+  align-self: flex-end;
+  text-align: right;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  color: #6be675;
+}
+
+.question-card h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.input {
+  position: relative;
+  background-color: red;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.input label {
+  display: block;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: center;
+  padding: 0.6rem 0;
+  background-color: #8bcbf9;
+  transition: all 0.6s ease;
+}
+
+.input:hover label {
+  background-color: #49a6e9;
+  color: #fff;
+}
+
+.input input {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  color: transparent;
+  border: none;
+  z-index: -100;
+}
+
+.question-card button {
+  align-self: flex-end;
+  display: inline;
+  border: none;
+  border-radius: 5px;
+  margin-top: 2rem;
+  padding: 0.6rem 2.4rem;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #ffb100;
+  transition: all 1s ease;
+}
+
+.question-card button:hover {
+  background-color: #805900;
+  color: #ffb100;
+}

@@ -1,0 +1,51 @@
+.sub-menu {
+  position: relative;
+  z-index: 10;
+}
+
+.sub-menu-items {
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  color: black;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  cursor: default;
+}
+
+.sub-menu-items::before {
+  content: "";
+  position: absolute;
+  top: -0.8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 0.9rem solid transparent;
+  border-right: 0.9rem solid transparent;
+  border-bottom: 0.9rem solid #fff;
+}
+
+.sub-menu-items h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1.4rem;
+  text-transform: capitalize;
+}
+
+.sub-menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-menu ul li {
+  color: inherit;
+}
+
+.sub-menu button {
+  border: none;
+  font-size: 1.2rem;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}

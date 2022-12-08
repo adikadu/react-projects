@@ -1,0 +1,26 @@
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.8rem;
+}
+
+.company {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0.4rem 1.6rem;
+  transition: all 0.6s ease;
+  border-left: 1px solid transparent;
+  cursor: pointer;
+}
+
+.company:hover {
+  color: #2caeba;
+  border-left: 1px solid #2caeba;
+}
+
+.company.active {
+  color: #2caeba;
+  border-left: 1px solid #2caeba;
+  background-color: #effafb;
+}

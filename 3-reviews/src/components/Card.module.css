@@ -1,0 +1,70 @@
+.card {
+  width: 80%;
+  /* background-color: red; */
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.img-container {
+  width: 10rem;
+  height: 10rem;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  /* background-color: red; */
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.quote-icon {
+  position: absolute;
+  z-index: 2;
+  top: 0.6rem;
+  left: -0.2rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #49a6e9;
+  padding: 0.8rem;
+  border-radius: 50%;
+}
+
+.img-container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #49a6e9;
+  top: -4px;
+  left: 10px;
+  border-radius: 50%;
+  /* z-index: -1; */
+}
+
+.reviewer-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 0.4rem;
+}
+
+.reviewer-job {
+  font-size: 0.9rem;
+  color: #2298ec;
+  display: block;
+  margin-bottom: 1.2rem;
+  text-transform: uppercase;
+}
+
+.reviewer-text {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #617d98;
+}

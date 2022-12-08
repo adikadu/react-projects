@@ -1,0 +1,43 @@
+main {
+  padding: 0 2rem;
+  margin: 2rem 0;
+}
+
+.heading {
+  font-size: 3.2rem;
+  text-align: center;
+  margin-top: 2.4rem;
+}
+
+hr {
+  width: 6rem;
+  margin: 0.4rem auto 2rem;
+  border-top: 4px solid #2caeba;
+  border-bottom: 0;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 200px 2fr;
+  column-gap: 4rem;
+  padding: 2rem;
+}
+
+.btn--more-info {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #b8f0f5;
+  background-color: #2caeba;
+  padding: 0.4rem 1.4rem;
+  border: none;
+  border-radius: 6px;
+  display: block;
+  margin: 1rem auto 0;
+  transition: all 1s ease;
+}
+
+.btn--more-info:hover {
+  color: #218c96;
+  background-color: #94e0e7;
+}

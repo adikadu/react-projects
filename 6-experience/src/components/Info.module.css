@@ -1,0 +1,45 @@
+.info h3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 0.8rem;
+}
+
+.company {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  color: #617d98;
+  background-color: #dae2ec;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.dates {
+  font-size: 1.2rem;
+  color: #617d98;
+  display: block;
+  margin-bottom: 1.4rem;
+}
+
+.info ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1.2rem;
+  color: #617d98;
+  line-height: 1.6rem;
+}
+
+.info ul li {
+  display: flex;
+  gap: 2rem;
+}
+
+.icon-arrow {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2caeba;
+}

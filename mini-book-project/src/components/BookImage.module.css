@@ -1,0 +1,6 @@
+.book-img {
+  width: 16rem;
+  height: 16rem;
+  object-fit: cover;
+  border-radius: 11px;
+}

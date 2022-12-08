@@ -1,0 +1,146 @@
+main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f5f8;
+}
+
+.container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 11px;
+  box-shadow: 0 5px 11px rgba(0, 0, 0, 0.2);
+}
+
+.container h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+form input {
+  font-size: 1.4rem;
+  padding: 0.2rem 0.4rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  background-color: #f1f5f8;
+}
+
+form input:focus {
+  outline: none;
+}
+
+form button {
+  height: 2.4rem;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #49a6e9;
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+  transition: background-color 0.8s ease, color 0.8s ease;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #1a6aa2;
+  color: #fff;
+}
+
+form button:active {
+  transform: scale(0.98);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+ul li {
+  width: 100%;
+  padding: 0.4rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.4rem;
+  text-transform: capitalize;
+  transition: background-color 1s ease;
+}
+
+ul li:hover {
+  background-color: #d9e9f5;
+}
+
+.item {
+  flex: 1;
+}
+
+ul li button {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn--edit {
+  color: green;
+}
+
+.btn--delete {
+  color: red;
+}
+
+.btn--clear {
+  display: block;
+  font-size: 1.2rem;
+  border: none;
+  background-color: transparent;
+  letter-spacing: 1px;
+  color: red;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.notification {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.2rem;
+  padding: 0.4rem 0.8rem;
+  background-color: orange;
+  color: #fff;
+  border-radius: 5px;
+  animation: pullUp 2s ease-out 0s forwards;
+}
+
+@keyframes pullUp {
+  0% {
+    transform: translateX(-50%) translateY(-50%);
+  }
+  50% {
+    transform: translateX(-50%) translateY(50%);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-100%);
+  }
+}

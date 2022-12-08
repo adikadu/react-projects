@@ -1,0 +1,35 @@
+.cocktail-details {
+  margin-top: 4rem;
+}
+
+.cocktail-details a {
+  display: block;
+  width: 7rem;
+  margin: 0 auto 2rem;
+}
+
+.cocktail-details h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+
+.drink-details {
+  width: 85vw;
+  margin: 0 auto 4rem;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.drink-details img {
+  width: 30rem;
+  border-radius: 11px;
+}
+
+.drink-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}

@@ -1,0 +1,48 @@
+.card {
+  width: 40vw;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  left: -1%;
+  transform: translateX(-50%);
+  transition: all 0.5s ease-in;
+}
+
+.card img {
+  width: 8.8rem;
+  height: 8.8rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid rgb(190, 189, 189);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  color: #ba5d2c;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card span {
+  font-size: 1rem;
+  color: #555;
+  text-transform: capitalize;
+  display: block;
+  margin-bottom: 1.6rem;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #777;
+  line-height: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.card svg {
+  font-size: 4rem;
+  color: #ba5d2c;
+}

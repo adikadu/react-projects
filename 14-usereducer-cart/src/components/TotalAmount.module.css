@@ -1,0 +1,11 @@
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+  color: #003e6b;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 1.4rem;
+}

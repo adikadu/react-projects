@@ -1,0 +1,15 @@
+.btn {
+  border: none;
+  padding: 0.2rem 0.4rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  background-color: #49a6e9;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.curser-block {
+  cursor: not-allowed;
+}

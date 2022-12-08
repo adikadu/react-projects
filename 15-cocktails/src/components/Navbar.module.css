@@ -1,0 +1,39 @@
+.nav {
+  background-color: #fff;
+  padding: 1.4rem 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid #476a2e;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  cursor: pointer;
+}
+
+.logo span {
+  color: #476a2e;
+}
+
+.link {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.nav a {
+  text-decoration: none;
+  color: inherit;
+}

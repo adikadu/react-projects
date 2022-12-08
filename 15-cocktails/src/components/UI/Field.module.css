@@ -1,0 +1,14 @@
+.field {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+
+.field span {
+  margin-right: 0.4rem;
+  background-color: #d4e6a5;
+  color: #476a2e;
+  padding: 0.2rem 0.4rem;
+  border-radius: 5px;
+  font-weight: bold;
+}

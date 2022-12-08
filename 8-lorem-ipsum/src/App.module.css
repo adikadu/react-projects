@@ -1,0 +1,52 @@
+.heading {
+  font-size: 1.8rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #063251;
+}
+
+form {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+form label {
+  font-size: 1.4rem;
+  margin-right: 0.6rem;
+  color: #063251;
+}
+
+form input {
+  width: 4rem;
+  padding: 0.2rem 0.4rem;
+  font-size: 1rem;
+  border: 1px solid #777;
+  border-radius: 5px;
+  margin-right: 2rem;
+}
+
+form input:focus {
+  outline: none;
+}
+
+form button {
+  padding: 0.4rem 1.6rem;
+  background-color: #2d87c8;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: #063251;
+}
+
+form button:hover {
+  background-color: #57b1f1;
+}
+
+form button:active {
+  transform: scale(0.98);
+}

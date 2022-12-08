@@ -1,0 +1,57 @@
+.item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.4rem;
+  padding: 0 1rem;
+}
+
+.item img {
+  width: 4.8rem;
+  height: 4.8rem;
+  object-fit: cover;
+}
+
+.item-info {
+  flex: 1;
+}
+
+.item-info h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 0.1rem;
+  color: #003e6b;
+}
+
+.item-info span {
+  display: block;
+  color: #617d98;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+}
+
+.item-info button {
+  border: none;
+  background-color: transparent;
+  color: #85c6f4;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.item-inc-dec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-inc-dec svg {
+  font-size: 1.4rem;
+  color: #85c6f4;
+  cursor: pointer;
+}
+
+.item-inc-dec span {
+  font-size: 1.6rem;
+}

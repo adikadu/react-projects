@@ -1,0 +1,35 @@
+form label {
+  display: block;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+form input {
+  border: none;
+  border-bottom: 3px solid #c5e5fc;
+  background-color: transparent;
+  margin-bottom: 3.2rem;
+  width: 34rem;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  padding: 0.4rem;
+  text-transform: uppercase;
+  color: #617d98;
+}
+
+form input:focus {
+  outline: none;
+}
+
+.page-nav {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 3.2rem;
+}
+
+.page-num-info {
+  font-weight: 700;
+}

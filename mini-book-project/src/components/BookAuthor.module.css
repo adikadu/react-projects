@@ -1,0 +1,10 @@
+.book-author {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: rgb(189, 88, 88);
+}
+
+.book-author:hover {
+  color: rgb(223, 124, 124);
+}
